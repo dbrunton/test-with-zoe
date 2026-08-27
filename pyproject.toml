@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-with-zoe"
+version = "0.1.0"
+description = "Zoe and David are trying things"
+readme = "README.md"
+authors = [
+  { name = "David Brunton", email = "dbrunton@example.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
