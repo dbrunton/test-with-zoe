@@ -1,6 +1,6 @@
 # test-with-zoe
 
-Zoe and David are trying things.
+Zoe and David are trying things. Here's a change from the command line.
 
 Usage example:
 
